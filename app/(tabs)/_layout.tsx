@@ -3,7 +3,7 @@ import { Tabs } from 'expo-router';
 import React from 'react';
 
 export default function TabLayout() {
-  const activeColor = 'blue';
+  const activeColor = '#530079ff';
   const inactiveColor = 'gray';
 
   return (

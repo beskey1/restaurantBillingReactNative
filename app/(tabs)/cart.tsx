@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   topBar: {
     paddingTop: 50, // space for front camera / notch
     paddingBottom: 16,
-    backgroundColor: "#0a84ff", // highlighted top bar
+    backgroundColor: "#530079ff", // highlighted top bar
     alignItems: "center",
     elevation: 4, // shadow Android
     shadowColor: "#000", // shadow iOS
@@ -142,14 +142,14 @@ const styles = StyleSheet.create({
   counterContainer: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#0a84ff",
+    backgroundColor: "#530079ff",
     borderRadius: 8,
     overflow: "hidden",
   },
-  counterBtn: { paddingVertical: 6, paddingHorizontal: 12, backgroundColor: "#0a84ff" },
+  counterBtn: { paddingVertical: 6, paddingHorizontal: 12, backgroundColor: "#530079ff" },
   counterText: { color: "#fff", fontSize: 18, fontWeight: "600" },
   qtyText: { color: "#fff", fontSize: 16, fontWeight: "600", paddingHorizontal: 12, minWidth: 35, textAlign: "center" },
-  itemTotal: { fontSize: 16, fontWeight: "700", color: "#0a84ff" },
+  itemTotal: { fontSize: 16, fontWeight: "700", color: "#530079ff" },
   separator: { height: 12 },
   footer: {
     backgroundColor: "#fff",
@@ -164,9 +164,9 @@ const styles = StyleSheet.create({
   },
   totalContainer: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: 16 },
   totalLabel: { fontSize: 20, fontWeight: "600", color: "#333" },
-  totalAmount: { fontSize: 24, fontWeight: "bold", color: "#0a84ff" },
+  totalAmount: { fontSize: 24, fontWeight: "bold", color: "#530079ff" },
 checkoutBtn: {
-  backgroundColor: "#0a84ff",
+  backgroundColor: "#530079ff",
   paddingVertical: 12,
   borderRadius: 8,
   alignItems: "center",

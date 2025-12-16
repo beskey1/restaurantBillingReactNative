@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
   tableCellText: { fontSize: 15, color: '#444' },
   totalSection: { flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 12, paddingHorizontal: 10 },
   totalLabel: { fontSize: 20, fontWeight: 'bold', color: '#333' },
-  totalAmount: { fontSize: 24, fontWeight: 'bold', color: '#0a84ff' },
+  totalAmount: { fontSize: 24, fontWeight: 'bold', color: '#530079ff' },
   footerText: { textAlign: 'center', fontSize: 14, color: '#666', fontStyle: 'italic', marginTop: 8 },
   actionButtons: {
     flexDirection: 'row',
@@ -226,15 +226,15 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 8,
   },
-  button: { flex: 1, paddingVertical: 14, borderRadius: 8, alignItems: 'center' },
+  button: { flex: 1, paddingVertical: 14, borderRadius: 8, alignItems: 'center',marginBottom:30 },
   cancelBtn: { backgroundColor: '#fff', borderWidth: 1, borderColor: '#ddd' },
   cancelBtnText: { color: '#666', fontSize: 16, fontWeight: '600' },
   saveBtn: { backgroundColor: '#34c759' },
-  printBtn: { backgroundColor: '#0a84ff' },
+  printBtn: { backgroundColor: '#530079ff' },
   buttonText: { color: '#fff', fontSize: 16, fontWeight: '700' },
 
   emptyContainer: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 20 },
   emptyText: { fontSize: 18, color: '#666', marginBottom: 20 },
-  backBtn: { backgroundColor: '#0a84ff', paddingVertical: 12, paddingHorizontal: 24, borderRadius: 8 },
+  backBtn: { backgroundColor: '#530079ff', paddingVertical: 12, paddingHorizontal: 24, borderRadius: 8 },
   backBtnText: { color: '#fff', fontSize: 16, fontWeight: '600' },
 });

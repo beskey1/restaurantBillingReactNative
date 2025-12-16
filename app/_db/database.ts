@@ -246,6 +246,25 @@ export function clearOrders() {
   db.execSync("DELETE FROM sqlite_sequence WHERE name='order_items';");
 }
 
+/* ------------------- BACKUP QUERY ------------------- */
+
+export function getOrdersForBackup() {
+  return db.getAllSync(`
+    SELECT 
+      o.id as order_id,
+      o.total,
+      o.created_at,
+      m.name,
+      oi.qty,
+      oi.price
+    FROM orders o
+    JOIN order_items oi ON oi.order_id = o.id
+    JOIN menu m ON m.id = oi.menu_id
+    ORDER BY o.id ASC
+  `);
+}
+
+
 // export const deleteMenuItem = (id: number, cb: () => void) => {
 //   db.execSync("DELETE FROM menu WHERE id = ?", [id]);
 //   cb();
